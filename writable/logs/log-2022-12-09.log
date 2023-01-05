@@ -1,0 +1,48 @@
+ERROR - 2022-12-09 20:02:13 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`tienda`.`venta`, CONSTRAINT `venta_ibfk_1` FOREIGN KEY (`factura_Id`, `factura_cliente_Id`) REFERENCES `factura` (`Id`, `cliente_Id`)) in C:\xampp\htdocs\Tienda\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\Tienda\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `factura...', 0)
+#1 C:\xampp\htdocs\Tienda\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `factura...')
+#2 C:\xampp\htdocs\Tienda\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `factura...')
+#3 C:\xampp\htdocs\Tienda\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `factura...', Array, false)
+#4 C:\xampp\htdocs\Tienda\system\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\Tienda\system\BaseModel.php(886): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\Tienda\system\Model.php(693): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\Tienda\app\Controllers\API\Facturas.php(50): CodeIgniter\Model->update('2', Object(stdClass))
+#8 C:\xampp\htdocs\Tienda\system\CodeIgniter.php(927): App\Controllers\API\Facturas->editar('2')
+#9 C:\xampp\htdocs\Tienda\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Facturas))
+#10 C:\xampp\htdocs\Tienda\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Tienda\public\index.php(81): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Tienda\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2022-12-09 20:02:22 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`tienda`.`venta`, CONSTRAINT `venta_ibfk_1` FOREIGN KEY (`factura_Id`, `factura_cliente_Id`) REFERENCES `factura` (`Id`, `cliente_Id`)) in C:\xampp\htdocs\Tienda\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\Tienda\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `factura...', 0)
+#1 C:\xampp\htdocs\Tienda\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `factura...')
+#2 C:\xampp\htdocs\Tienda\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `factura...')
+#3 C:\xampp\htdocs\Tienda\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `factura...', Array, false)
+#4 C:\xampp\htdocs\Tienda\system\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\Tienda\system\BaseModel.php(886): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\Tienda\system\Model.php(693): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\Tienda\app\Controllers\API\Facturas.php(50): CodeIgniter\Model->update('2', Object(stdClass))
+#8 C:\xampp\htdocs\Tienda\system\CodeIgniter.php(927): App\Controllers\API\Facturas->editar('2')
+#9 C:\xampp\htdocs\Tienda\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Facturas))
+#10 C:\xampp\htdocs\Tienda\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Tienda\public\index.php(81): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Tienda\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#13 {main}
+ERROR - 2022-12-09 20:02:25 --> mysqli_sql_exception: Cannot delete or update a parent row: a foreign key constraint fails (`tienda`.`venta`, CONSTRAINT `venta_ibfk_1` FOREIGN KEY (`factura_Id`, `factura_cliente_Id`) REFERENCES `factura` (`Id`, `cliente_Id`)) in C:\xampp\htdocs\Tienda\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\Tienda\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `factura...', 0)
+#1 C:\xampp\htdocs\Tienda\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `factura...')
+#2 C:\xampp\htdocs\Tienda\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `factura...')
+#3 C:\xampp\htdocs\Tienda\system\Database\BaseBuilder.php(2079): CodeIgniter\Database\BaseConnection->query('UPDATE `factura...', Array, false)
+#4 C:\xampp\htdocs\Tienda\system\Model.php(338): CodeIgniter\Database\BaseBuilder->update()
+#5 C:\xampp\htdocs\Tienda\system\BaseModel.php(886): CodeIgniter\Model->doUpdate(Array, Array)
+#6 C:\xampp\htdocs\Tienda\system\Model.php(693): CodeIgniter\BaseModel->update(Array, Array)
+#7 C:\xampp\htdocs\Tienda\app\Controllers\API\Facturas.php(50): CodeIgniter\Model->update('2', Object(stdClass))
+#8 C:\xampp\htdocs\Tienda\system\CodeIgniter.php(927): App\Controllers\API\Facturas->editar('2')
+#9 C:\xampp\htdocs\Tienda\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Facturas))
+#10 C:\xampp\htdocs\Tienda\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Tienda\public\index.php(81): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\Tienda\system\Commands\Server\rewrite.php(46): require_once('C:\\xampp\\htdocs...')
+#13 {main}

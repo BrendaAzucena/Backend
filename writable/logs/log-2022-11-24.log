@@ -1,0 +1,80 @@
+CRITICAL - 2022-11-24 16:18:28 --> CodeIgniter\RESTful\ResourceController::respond(): Argument #2 ($status) must be of type ?int, string given, called in C:\xampp\htdocs\Tienda\app\Controllers\API\Clientes.php on line 43
+in SYSTEMPATH\API\ResponseTrait.php on line 90.
+ 1 APPPATH\Controllers\API\Clientes.php(43): CodeIgniter\RESTful\ResourceController->respond([...], 'ROOTPATH\\public', 200)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\Clientes->show('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Clientes))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(70): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-24 16:19:42 --> CodeIgniter\RESTful\ResourceController::respond(): Argument #2 ($status) must be of type ?int, string given, called in C:\xampp\htdocs\Tienda\app\Controllers\API\Clientes.php on line 43
+in SYSTEMPATH\API\ResponseTrait.php on line 90.
+ 1 APPPATH\Controllers\API\Clientes.php(43): CodeIgniter\RESTful\ResourceController->respond([...], 'ROOTPATH\\public', 200)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\Clientes->show('2')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Clientes))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(70): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-24 16:22:55 --> CodeIgniter\RESTful\ResourceController::respond(): Argument #2 ($status) must be of type ?int, string given, called in C:\xampp\htdocs\Tienda\app\Controllers\API\Clientes.php on line 43
+in SYSTEMPATH\API\ResponseTrait.php on line 90.
+ 1 APPPATH\Controllers\API\Clientes.php(43): CodeIgniter\RESTful\ResourceController->respond([...], 'ROOTPATH\\public', 200)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\Clientes->show('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Clientes))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(70): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-24 16:24:27 --> CodeIgniter\RESTful\ResourceController::respond(): Argument #2 ($status) must be of type ?int, string given, called in C:\xampp\htdocs\Tienda\app\Controllers\API\Clientes.php on line 43
+in SYSTEMPATH\API\ResponseTrait.php on line 90.
+ 1 APPPATH\Controllers\API\Clientes.php(43): CodeIgniter\RESTful\ResourceController->respond([...], 'ROOTPATH\\public', 200)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\Clientes->show('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Clientes))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(70): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-24 16:24:32 --> CodeIgniter\RESTful\ResourceController::respond(): Argument #2 ($status) must be of type ?int, string given, called in C:\xampp\htdocs\Tienda\app\Controllers\API\Clientes.php on line 43
+in SYSTEMPATH\API\ResponseTrait.php on line 90.
+ 1 APPPATH\Controllers\API\Clientes.php(43): CodeIgniter\RESTful\ResourceController->respond([...], 'ROOTPATH\\public', 200)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\Clientes->show('2')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Clientes))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(70): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-24 16:25:10 --> CodeIgniter\RESTful\ResourceController::respond(): Argument #2 ($status) must be of type ?int, string given, called in C:\xampp\htdocs\Tienda\app\Controllers\API\Clientes.php on line 43
+in SYSTEMPATH\API\ResponseTrait.php on line 90.
+ 1 APPPATH\Controllers\API\Clientes.php(43): CodeIgniter\RESTful\ResourceController->respond([...], 'ROOTPATH\\public', 200)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\Clientes->show('3')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Clientes))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(70): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-24 16:27:40 --> CodeIgniter\RESTful\ResourceController::respond(): Argument #2 ($status) must be of type ?int, string given, called in C:\xampp\htdocs\Tienda\app\Controllers\API\Clientes.php on line 43
+in SYSTEMPATH\API\ResponseTrait.php on line 90.
+ 1 APPPATH\Controllers\API\Clientes.php(43): CodeIgniter\RESTful\ResourceController->respond([...], 'ROOTPATH\\public', 200)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\Clientes->show('3')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Clientes))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(70): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-24 16:28:35 --> CodeIgniter\RESTful\ResourceController::respond(): Argument #2 ($status) must be of type ?int, string given, called in C:\xampp\htdocs\Tienda\app\Controllers\API\Clientes.php on line 43
+in SYSTEMPATH\API\ResponseTrait.php on line 90.
+ 1 APPPATH\Controllers\API\Clientes.php(43): CodeIgniter\RESTful\ResourceController->respond([...], 'ROOTPATH\\public', 200)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\Clientes->show('3')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Clientes))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(70): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-24 16:28:38 --> CodeIgniter\RESTful\ResourceController::respond(): Argument #2 ($status) must be of type ?int, string given, called in C:\xampp\htdocs\Tienda\app\Controllers\API\Clientes.php on line 43
+in SYSTEMPATH\API\ResponseTrait.php on line 90.
+ 1 APPPATH\Controllers\API\Clientes.php(43): CodeIgniter\RESTful\ResourceController->respond([...], 'ROOTPATH\\public', 200)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\Clientes->show('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Clientes))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(70): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-11-24 16:30:36 --> CodeIgniter\RESTful\ResourceController::respond(): Argument #2 ($status) must be of type ?int, string given, called in C:\xampp\htdocs\Tienda\app\Controllers\API\Facturas.php on line 27
+in SYSTEMPATH\API\ResponseTrait.php on line 90.
+ 1 APPPATH\Controllers\API\Facturas.php(27): CodeIgniter\RESTful\ResourceController->respond([...], 'ROOTPATH\\public', 200)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\API\Facturas->show('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\Facturas))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(70): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
